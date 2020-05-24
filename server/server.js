@@ -4,7 +4,6 @@ const http = require('http');
 const express = require('express');
 const socket = require('socket.io');
 
-// const currentPath = path.join(__dirname, '..', 'public');
 const currentPath = path.join(__dirname, '../public');
 const port = process.env.PORT || 3000;
 
