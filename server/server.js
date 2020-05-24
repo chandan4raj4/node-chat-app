@@ -15,6 +15,7 @@ app.use(express.static(currentPath));
 
 io.on('connection', (socket)=>{
     console.log('New User Connected !!!');
+    console.log('New User Connected !!!');
     socket.on('disconnect', ()=>{
         console.log('User Disconnected from Server');
     });
